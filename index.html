@@ -24,14 +24,14 @@
         </nav>
          <picture class="banner">
             <source media="(max-width: 425px )" srcset="./assets/img/banner_320.jpg" height="300" width="425">
-            <source media="(max-width 768px)" srcset="./assets/img/banner_768.jpeg" height="300" width="768">
+            <source media="(max-width: 768px)" srcset="./assets/img/banner_768.jpeg" height="300" width="768">
             <img src="./assets/img/banner_1024.jpg" >
         </picture>
 
     </header>
     <main> 
         <h1>¡Transita una mascota!</h1>
-        <section>
+        <section class="introduccion">
             Sumate a la red de hogares de tránsito para salvar vidas. Quizás no puedas adopta un animal de compañía pero sí brindar un hogar transitorio hasta su adopción definitiva.
         <section class="boton">
             <a href="./pages/formulario.html" class="btn btn-outline-primary" role="button">Completar formulario</a>
@@ -41,11 +41,53 @@
         <section>
             Ayudamos a establecer un nexo entre organizacions defensoras de animales que necesitan hogares transitorios para animales en adopción y personas dispuestas a ofrecer su hogar y cuidados.
         </section>
-
-
+        <section class="casos-exito">
+            <h4>A continuación un pequeño resumen de nuestros casos de éxito.</h4>
+        <div class="carousel">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./assets/img/carousel-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Día de encuentro</h5>
+                  <p>Nos encontramos con los animales ya adoptados y quienes brindaron su hogar para tránsito.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./assets/img/carousel-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Día de encuentro</h5>
+                  <p>Fue un momento para evaluar logros y proyectar a futuro.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/carousel-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Día de encuentro</h5>
+                  <p>Se coordinaron nuevas actividades y campañas de donación.</p>
+                </div>
+              </div>
+            </div>
+               </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+    </section>
    </main>
    <div class="fixed">
-    <img src="./assets/img/instagram1.jpg" alt="20px">
+    <img src="./assets/img/instagram1.jpg" alt="">
    </div>
     <footer>
             <div> Copyright &copy; Red de Hogares de Tránsito 2024</div>

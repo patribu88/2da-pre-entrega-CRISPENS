@@ -29,13 +29,14 @@ header{
 
 .banner img{
     width: 100%;
-    height: 100%;
+    height: 80%;
     object-fit: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
     justify-content: space-between;
     opacity: 0.6;
+    margin-bottom: 20px;
 
 }
 .navBar{
@@ -61,9 +62,32 @@ footer{
 
 body{
     font-family: "Roboto Slab" ;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
 
+.carousel{
+    width: 600px;
+}
+
+.introduccion{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.casos-exito{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
 
 
 .orgs-container {
@@ -204,8 +228,7 @@ p{
 
 @media (max-width: 768px){
     header{
-        flex-direction: column;
-        justify-content: center
+
     }
 }
 
