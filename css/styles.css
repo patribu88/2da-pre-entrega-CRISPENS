@@ -112,12 +112,12 @@ p{
    font-weight: lighter; 
 }
 
+
 .boton button {
     padding: 10px;
     border-radius: 5px;
     margin: 20px;
 }
-
 
 .animalesPrincipal{
     display: grid;
