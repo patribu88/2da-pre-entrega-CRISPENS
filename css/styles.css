@@ -24,12 +24,12 @@ header{
     }
 .banner{
     width: 100%;
-    height: 100%;
+    height: 80%;
 }
 
 .banner img{
     width: 100%;
-    height: 80%;
+    height: 90%;
     object-fit: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -83,40 +83,77 @@ main{
     flex-direction: column;
     gap: 20px;
 }
+
+.mision1 {
+    grid-area: mision1;
+    background-color: rgb(184, 128, 44);
+}
+.mision2 {
+    grid-area: mision2;
+}
+.mision3 {
+    grid-area: mision3;
+}
+.mision4 {
+    grid-area: mision4;
+    justify-content: center;
+}
+.mision5 {
+    grid-area: mision5;
+}
+.mision6 {
+    grid-area: mision6;
+}
+
+.mision {
+    display:grid;
+    grid-template-columns: 1fr 1fr 33%;
+    grid-template-rows: 200px 300px 500px;
+    gap: 20px;
+    grid-template-areas: 
+    'mision1 mision1 mision2'
+    'mision3 mision4 mision5'
+    'mision6 mision6 mision5'
+    ;
+}
+
+.mision div{
+    background-color: aquamarine;
+}
+.mision div img{
+    height: 100%;
+    width: 100%;
+}
 .casos-exito{
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
+.casos-exito-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
 
 .orgs-container {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px
-     
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 50px;
+   
 
 }
 
 .orgs-container article{
-    background-color: #3f8a80;
-    width: 50%;
-    height: 300x;
-    padding: 50px;
-    border-radius: 10px;  
-}
-
-.orgs-container article img{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 100%;
-    height: 50%;
-}
-.orgs-container article p {
-    font-weight: 100
+    border-radius: .5625rem;
+    background-color: rgb(192, 165, 134);
+    justify-content: center;
+    justify-items: center;
 }
 
 
